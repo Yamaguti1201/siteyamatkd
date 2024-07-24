@@ -71,25 +71,29 @@ body {
 .w-100 {
     height: 100hv;
 }
-.saiba-mais{
+
+.saiba-mais {
     align-items: center;
     text-align: justify;
     padding-left: 2.2rem;
     padding-right: 2.2rem;
 }
-.saiba-mais h1{
+
+.saiba-mais h1 {
     font-weight: bold;
     align-items: center;
     text-align: center;
 }
-.vertentes{
+
+.vertentes {
     margin-top: 5rem;
 }
 
-.about h1{
+.about h1 {
     text-align: center;
     font-weight: bold;
 }
+
 .about-img img {
     max-width: 20rem;
     max-height: auto;
@@ -177,42 +181,52 @@ body {
 /* ta responsivo uhul */
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-	.carousel-caption {
-		bottom: 370px;
-	}
-	.carousel-caption p {
-		width: 100%;
-	}
-	.card {
-		margin-bottom: 30px;
-	}
-	.img-area img {
-		width: 100%;
-	}
+    .carousel-caption {
+        bottom: 370px;
+    }
+
+    .carousel-caption p {
+        width: 100%;
+    }
+
+    .card {
+        margin-bottom: 30px;
+    }
+
+    .img-area img {
+        width: 100%;
+    }
 }
+
 @media only screen and (max-width: 767px) {
-	.navbar-nav {
-		text-align: center;
-	}
-	.carousel-caption {
-		bottom: 125px;
-	}
-	.carousel-caption h5 {
-		font-size: 17px;
-	}
-	.carousel-caption a {
-		padding: 10px 15px;
-		font-size: 15px;
-	}
-	.carousel-caption p {
-		width: 100%;
-		line-height: 1.6;
-		font-size: 12px;
-	}
-	.about-text {
-		padding-top: 50px;
-	}
-	.card {
-		margin-bottom: 30px;
-	}
+    .navbar-nav {
+        text-align: center;
+    }
+
+    .carousel-caption {
+        bottom: 125px;
+    }
+
+    .carousel-caption h5 {
+        font-size: 17px;
+    }
+
+    .carousel-caption a {
+        padding: 10px 15px;
+        font-size: 15px;
+    }
+
+    .carousel-caption p {
+        width: 100%;
+        line-height: 1.6;
+        font-size: 12px;
+    }
+
+    .about-text {
+        padding-top: 50px;
+    }
+
+    .card {
+        margin-bottom: 30px;
+    }
 }
